@@ -58,8 +58,6 @@ def historical_show(data:pd.DataFrame):
                                 y='Visitantes',
                                 title='Visitantes hoje')
         st.plotly_chart(today_chart, use_container_width=True)     
-        
-    
     
     return None    
 
